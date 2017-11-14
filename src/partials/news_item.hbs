@@ -1,14 +1,18 @@
+
 <ul>
-    {{#if param.cate_des }}
-        <p><a href="/news/{{param.cate}}.html">{{param.cate_name}}</a>
+     {{#if need_des }}
+        {{#news_des need_des}}
+            <p><a href="/news/{{../need_des}}.html">{{cate_name}}</a>
             <blockquote>
-                <img src="/assets/img/{{param.icon_img}}" alt="">
-                <a href="/news/details/{{param.news_id}}.html">{{param.cate_des}}</a>
-                <cite>{{param.cate_date}}</cite>
+                <img src="/assets/img/{{icon_img}}" alt="">
+                <a href="/news/details/{{news_id}}.html">{{desc}}</a>
+                <cite>{{publish_time}}</cite>
             </blockquote>
         </p>
+        {{/news_des}}
     {{/if}}
-    {{#each param.list}}
+
+    {{#each param}}
         <li><a href="/news/details/{{id}}.html"><span>[{{publish_time}}]</span>{{title}}</a></li>
    {{/each}}
 </ul>

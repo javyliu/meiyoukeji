@@ -1,0 +1,26 @@
+<div class="banner">
+</div>
+<div class="grid-container mt1em">
+    <div class="grid-x grid-margin-x">
+        <div class="large-8 cell content">
+            {{#news_detail}}
+            <h4>{{title}}</h4>
+            <div class="sm">
+                <span>来源：{{from}}</span>
+                <span>发表时间：{{publish_time}}</span>
+                <span>作者：{{author}}</span>
+            </div>
+            <hr/>
+            <div class="summary">
+                {{desc}}
+            </div>
+            <div class="content">
+                {{{content}}}
+            </div>
+            {{/news_detail}}
+        </div>
+        <div class="large-4 cell">
+            {{> news_list}}
+        </div>
+    </div>
+</div>

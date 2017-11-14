@@ -1,18 +1,5 @@
-<div class="grid-container">
-    <div class="top-bar">
-        <div class="top-bar-left">
-            <ul class="menu">
-                <li><img src="/assets/img/logo.png" alt="海南美游科技有限公司"></li>
-            </ul>
-        </div>
-        <div class="top-bar-right">
-            <ul class="menu">
-                <li class="current"><a href="/">首页</a> </li>
-                <li><a href="/company/aboutus.html">关于美游</a></li>
-                <li><a href="/news/index.html">新闻资讯</a></li>
-                <li><a href="/games/index.html">游戏中心</a></li>
-                <li><a href="/company/contact_us.html">联系我们</a></li>
-            </ul>
-        </div>
-    </div>
-</div>
+<li class="{{is_current 'index'}}"><a href="/">首页</a> </li>
+<li class="{{is_current 'aboutus'}}"><a href="/company/aboutus.html">关于美游</a></li>
+<li class="{{is_current 'news'}}"><a href="/news.html">新闻资讯</a></li>
+<li class="{{is_current 'games'}}"><a href="/games.html">游戏中心</a></li>
+<li class="{{is_current 'contact_us'}}"><a href="/company/contact_us.html">联系我们</a></li>

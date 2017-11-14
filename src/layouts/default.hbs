@@ -13,8 +13,21 @@
 </head>
 
 <body>
-
-    {{> header}} 
+    <div class="grid-container">
+    <div class="top-bar">
+        <div class="top-bar-left">
+            <ul class="menu">
+                <li><a href="/"><img src="/assets/img/logo.png" alt="海南美游科技有限公司"></a></li>
+            </ul>
+        </div>
+        <div class="top-bar-right">
+            <ul class="menu">
+                {{> header}}                
+            </ul>
+        </div>
+    </div>
+</div>
+    
     {{!-- Pages you create in the src/pages/ folder are inserted here when the flattened page is created. --}} 
     {{> body}} 
     {{> footer}}

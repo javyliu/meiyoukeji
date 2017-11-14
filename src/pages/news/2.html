@@ -1,0 +1,22 @@
+<div class="banner">
+</div>
+<div class="grid-container">
+    <div class="grid-x grid-margin-x mt1em">
+        <div class="large-12 cell content">
+            <h3>行业新闻</h3>
+            <hr>
+            <ul class="list">
+                {{#each data.company_news}}
+                <li>
+                    <a href="/news/details/{{id}}.html"><span>[{{publish_time}}]</span>{{title}}</a>
+                    <div class="short_des">
+                        {{desc}}
+                    </div>
+                </li>
+                <hr> {{/each}}
+            </ul>
+
+        </div>
+
+    </div>
+</div>

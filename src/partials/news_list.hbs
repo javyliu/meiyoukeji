@@ -1,0 +1,10 @@
+
+<ul class="vertical sub_menu">
+    {{#news_list}}
+        <li class="docs-nav-title">{{cate.cate_name}}</li>
+        {{#each list}}
+         <li><a href="/news/details/{{id}}.html">{{title}}</a></li>
+        {{/each}}
+    {{/news_list}}
+
+</ul>

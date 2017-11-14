@@ -9,13 +9,13 @@
                 <p>让你最快了解游戏世界</p>
                 <div class="grid-x grid-margin-x  news">
                     <div class="large-4 medium-4 cell">
-                        {{> news_item param=data.company_news}}
+                        {{> news_item param=data.company_news need_des="1"}}
                     </div>
                     <div class="large-4 medium-4 cell">
-                        {{> news_item param=data.hangye_news}}
+                        {{> news_item param=data.hangye_news need_des="2"}}
                     </div>
                     <div class="large-4 medium-4 cell">
-                        {{> news_item param=data.notices}}
+                        {{> news_item param=data.notices need_des="3"}}
                     </div>
                 </div>
             </div>
