@@ -12,6 +12,8 @@ import fs from 'fs';
 import webpackStream from 'webpack-stream';
 import webpack2 from 'webpack';
 import named from 'vinyl-named';
+import rsync from 'gulp-rsync';
+
 
 // Load all Gulp plugins into one variable
 const $ = plugins();
@@ -40,6 +42,23 @@ gulp.task('default',
 function clean(done) {
     rimraf(PATHS.dist, done);
 }
+
+
+//布署到正式服
+gulp.task('deploy', function() {
+    return gulp.src('dist/**')
+        .pipe(rsync({
+            root: 'dist',
+            username: 'qmliu',
+            progress: true,
+            hostname: 'meiyoukeji.com',
+            destination: '/home/qmliu/meiyou/',
+            //destination: '../../web_apps/inner_app',
+            // exclude: ['*.swp'],
+            // chmod: "ugo=rwX",
+            incremental: true
+        }));
+});
 
 // Copy files out of the assets folder
 // This task skips over the "img", "js", and "scss" folders, which are parsed separately
