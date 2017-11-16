@@ -366,21 +366,21 @@ var news = [{
         content: `年度3A级手游钜作《骑士战歌》即将推出iOS版本，并同步释出‘战魂殿’、‘玛雅炼身’和‘王城领地战’等精彩内容外，举办‘全民嘉年华’与‘战力大比拼’等活动，欢迎骑士们一同揪友抢先体验。<br>      
         
         　　专属神装收藏所！‘战魂殿’隆重登场！<br>
-            <img src="http://n.sinaimg.cn/games/transform/20160503/4eP9-fxrtztr3669894.jpg">
+            <img src="http://n.sinaimg.cn/games/transform/20160503/4eP9-fxrtztr3669894.jpg"><br>
         　　收集各种职业的神装为玩家们在《骑士战歌》中必修的功课，即日起，骑士凡等级达26级以上可点击开启‘战魂殿’来放置换下来的装备，套装等级需至少具备紫色+5才能够放入‘战魂殿’，每十级能够多放入一套。当装备收集放齐后即可启动特殊技能，而当全套装备强化至+7时，更将有额外的属性，另外，透过使用‘战魂玉’也将增加星数来影响附加属性的数值。<br>        
         
-            <img src="http://n.sinaimg.cn/games/transform/20160503/Jgo8-fxrtztc3174906.jpg">
+            <img src="http://n.sinaimg.cn/games/transform/20160503/Jgo8-fxrtztc3174906.jpg"><br>
         　　全面强化无极限！‘玛雅炼身’进化推出！<br>
         
         　　想要成为世界的王者就要不断进化，在‘玛雅炼身’中共可分为6个部位，每个部位又分6个纹身元件，来提升属性并强化。<br>
-            <img src="http://n.sinaimg.cn/games/transform/20160503/Irzv-fxrunru8695619.jpg">
+            <img src="http://n.sinaimg.cn/games/transform/20160503/Irzv-fxrunru8695619.jpg"><br>
         
         　　透过消耗‘玛雅宝石’即可随机改变属性品质，出现改变后的品质颜色后，就能够使用‘阅历’转动属性转盘，属性数值越好的区域愈小，所以如果想要增加大量属性数值，就必须眼明手快，才能一次命中。<br>        
-            <img src="http://n.sinaimg.cn/games/transform/20160503/MmC--fxrunru8695651.jpg">
+            <img src="http://n.sinaimg.cn/games/transform/20160503/MmC--fxrunru8695651.jpg"><br>
         　　骑士团争霸！‘领地战’即日开打！<br>
         
         　　骑士等级达22级以上可以开启‘骑士团任务’，并花费钻石创立公会，每个骑士团最多可招收100位成员。在骑士团内要从事活动皆需借由骑士们来捐献资金，而团长可花费资金每天发动一次骑士团的BOSS狩猎活动，团内的成员都能够参与，BOSS的难度则会随着每次挑战而增加。<br>        
-        <img src="http://n.sinaimg.cn/games/transform/20160503/EPD--fxrtztr3669980.jpg">
+        <img src="http://n.sinaimg.cn/games/transform/20160503/EPD--fxrtztr3669980.jpg"><br>
         
         　　此外，每周两次的领地战则需由各骑士团团长花费资金进行竞标，系统将自动选出最高的两个公会进行领地的争夺权PK战，获胜的一方除了将得到丰厚的奖励外，也将获得特殊福利。<br>
         
