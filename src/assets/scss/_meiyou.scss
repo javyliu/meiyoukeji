@@ -119,6 +119,21 @@
         margin: 2em 0 1em 0;
     }
     line-height:2em;
+    li {
+        white-space: nowrap;
+        overflow: hidden;
+        line-height: 2.5rem;
+        text-overflow: ellipsis;
+        a {
+            color: #333;
+            &:visited {
+                color: #0b496d;
+            }
+            &:hover {
+                color: #209de6;
+            }
+        }
+    }
 }
 
 .banner {
