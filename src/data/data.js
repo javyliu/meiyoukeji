@@ -395,9 +395,16 @@ var news = [{
         `
     },
 
-]
+];
 
-
+function page_title() {
+    var that = this;
+    var _new = /\d+/.test(this.page) && this.root === '../../' && news.find(function(item) {
+        return item.id == that.page;
+    });
+    var _tmp = _new || { title: "海南美游科技有限公司", desc: "海南美游科技有限公司" };
+    return `<title>${_tmp.title}</title>\r\n<meta name="description" content="${_tmp.title}"/>`;
+}
 
 module.exports = {
     news: news,
@@ -405,4 +412,5 @@ module.exports = {
     company_news: news.filter(function(item) { return item.cate_id === 1 }),
     hangye_news: news.filter(function(item) { return item.cate_id === 2 }),
     notices: news.filter(function(item) { return item.cate_id === 3 }),
+    page_title: page_title,
 }
