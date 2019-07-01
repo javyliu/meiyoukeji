@@ -55,7 +55,7 @@ gulp.task('deploy', function() {
             destination: '/home/qmliu/meiyou/',
             //destination: '../../web_apps/inner_app',
             // exclude: ['*.swp'],
-            // chmod: "ugo=rwX",
+            chmod: "ugo=rwX",
             incremental: true
         }));
 });
