@@ -68,3 +68,10 @@ http://localhost:8000
 ```
 
 To create compressed, production-ready assets, run `npm run build`.
+
+
+布署：
+
+```bash
+npm run deploy
+```
